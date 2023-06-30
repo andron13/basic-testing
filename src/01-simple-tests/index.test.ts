@@ -50,14 +50,14 @@ describe('simpleCalculator tests', () => {
     const result: number | null = simpleCalculator({
       a: 2,
       b: 3,
-      action: 'сложить' as Action,
+      action: 'invalidAction' as Action,
     });
     expect(result).toBe(null);
   });
 
   test('should return null for invalid arguments', () => {
     const result: number | null = simpleCalculator({
-      a: 'odin',
+      a: 'invalidArguments',
       b: '3',
       action: Action.Add,
     });
