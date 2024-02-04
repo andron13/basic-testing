@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`generateLinkedList should generate correct linked list from numeric values snapshot 1`] = `
+{
+  "next": {
+    "next": null,
+    "value": null,
+  },
+  "value": 1,
+}
+`;
+
+exports[`generateLinkedList should generate correct linked list from numeric values snapshot 2`] = `
+{
+  "next": {
+    "next": {
+      "next": null,
+      "value": null,
+    },
+    "value": 2,
+  },
+  "value": 1,
+}
+`;
+
+exports[`generateLinkedList should generate correct linked list from numeric values snapshot 3`] = `
+{
+  "next": {
+    "next": {
+      "next": {
+        "next": null,
+        "value": null,
+      },
+      "value": 3,
+    },
+    "value": 2,
+  },
+  "value": 1,
+}
+`;
+
+exports[`generateLinkedList should generate linked list from different set of values object snapshot 1`] = `
+{
+  "next": {
+    "next": {
+      "next": {
+        "next": null,
+        "value": null,
+      },
+      "value": "c",
+    },
+    "value": "b",
+  },
+  "value": "a",
+}
+`;
+
+exports[`generateLinkedList should generate linked list from set of values object snapshot 1`] = `
+{
+  "next": {
+    "next": {
+      "next": {
+        "next": null,
+        "value": null,
+      },
+      "value": 3,
+    },
+    "value": 2,
+  },
+  "value": 1,
+}
+`;
